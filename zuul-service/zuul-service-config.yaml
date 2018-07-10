@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    appi-a:
+      path: /api-a/**
+      serviceId: hello-service
+      sensitiveHeaders:
+    feign-service: /api-b/**
+    ribbon-service: /api-c/**
+  addHostHeader: true
+
