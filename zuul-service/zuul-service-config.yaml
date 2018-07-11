@@ -5,6 +5,6 @@ zuul:
       serviceId: hello-service
       sensitiveHeaders:
     feign-service: /api-b/**
-    ribbon-service: /api-c/**
+    ribbon-service: /api-d/**
   addHostHeader: true
 
