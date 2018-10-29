@@ -2,7 +2,7 @@ zuul:
   routes:
     appi-a:
       path: /api-a/**
-      serviceId: hello-service
+      serviceId: boot-service
       sensitiveHeaders:
     feign-service: /api-b/**
     ribbon-service: /api-d/**
