@@ -1,7 +1,7 @@
 zuul:
   routes:
     appi-a:
-      path: /api-c/**
+      path: /api-a/**
       serviceId: boot-service
       sensitiveHeaders:
     feign-service: /api-b/**
